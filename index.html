@@ -14,15 +14,22 @@
 
 <!-- 
 
-1. Upload popup.js to your server
+1. Upload images into your images file (FIX THE <IMG> TAG TO GO TO YOUR IMAGES DIRECTORY)
 
-2. Copy and paste popup.css into the bottom of your css file
+2. Copy page template and paste into your reviews page
 
-3. Upload images into your images file
+3. Upload popup.js to your js folder
 
-4. Copy everything Below and paste into page
+4. Copy and paste popup.css into the bottom of your css file
+
+5. Style the buttons and text to match your site
+
+6. Paste script into your footer below your jQuery call
 
 -->
+
+
+<!-- Copy into page template -->
 
 <div class="review-page-wrap">
 	<h2>We value your feedback</h2>
@@ -46,25 +53,34 @@
 	wistiaEmbed = Wistia.embed("uptwyj8l7a");
 	</script>
 	<script charset="ISO-8859-1" src="//fast.wistia.com/embed/medias/uptwyj8l7a/metadata.js"></script>
-    
-	<script src="popup.js"></script>
-	<script>
-	$(function() {
-		 // google review  
-		$('.popupclick').popupWindow({ 
-			height: 650,
-			width: 1100,
-			top:50, 
-			left:50,
-			centerScreen:1
-		});   
-
-	});
-	</script>
-
 </div>
 
-<!-- End review page wrap Do not copy after this -->
+<!-- End review page template -->
+
+
+
+
+
+
+
+<!-- Paste this script underneath your jQuery call -->
+
+<script src="popup.js"></script>
+<script>
+$(function() {
+	 // google review  
+	$('.popupclick').popupWindow({ 
+		height: 650,
+		width: 1100,
+		top:50, 
+		left:50,
+		centerScreen:1
+	});   
+
+});
+</script>
+
+<!-- End script. Do not copy after this -->
 
 
 
