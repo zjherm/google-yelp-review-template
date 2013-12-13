@@ -4,7 +4,7 @@
 
 1. Upload popup.js to your server
 
-2. Copy and paste style.css into the bottom of your css file
+2. Copy and paste popup.css into the bottom of your css file
 
 3. Upload images into your images file
 
